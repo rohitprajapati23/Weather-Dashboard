@@ -1,0 +1,4 @@
+https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&appid={api_key}
+https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid={api_key}
+
+sSetTime = moment.utc(sunset, 'X').add(timezone, 'seconds').format('hh:mm A'),
